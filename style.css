@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  /* display: flex;
+  justify-content: space-between; */
+  align-items: center;
+  background-color: #222;
+  color: #fff;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* .toggle-container {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.toggle {
+  display: none;
+}
+
+.switch {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #999;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.switch::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.toggle:checked + .switch {
+  background-color: #66bb6a;
+}
+
+.toggle:checked + .switch::before {
+  transform: translateX(26px);
+} */
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.add-employee {
+  margin-bottom: 2rem;
+}
+
+.add-employee h2 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+input[type="text"], input[type="email"] {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+  background-color: #000000;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button[type="submit"]:hover {
+  background-color: #7d7d7d;
+}
+
+.employee-list {
+  text-align: left;
+}
+
+.employee-list h2 {
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #222;
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
