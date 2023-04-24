@@ -9,12 +9,15 @@
 <body>
   <header>
     <h1>Employee Directory</h1>
+    <button id="toggle-mode">Dark Mode</button>
+
     <!-- <div class="toggle-container">
       <input type="checkbox" id="toggle" class="toggle">
       <label for="toggle" class="switch"></label>
     </div> -->
   </header>
   <main>
+
     <section class="add-employee">
       <h2>Add Employee</h2>
       <form id="employee-form">
@@ -27,8 +30,14 @@
         <button type="submit">Add</button>
       </form>
     </section>
+
     <section class="employee-list">
       <h2>Employee List</h2>
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search employees...">
+        <button type="button" id="search-button">Search</button>
+        <!-- <button id="show-all-button">Show All Employees</button> -->
+      </div>
       <table>
         <thead>
           <tr>
